@@ -1,18 +1,7 @@
 ---
-title: Draft outline
+title: Draft Exclaimer
 permalink: /outline
 layout: page
 ---
 
-An outline of the chapters planned for this book.
-Many of them have yet to be written.
-Only the chapters with a checkmark appear in the contents and navigation. 
-
-{% include chapterbook-toc.html show_drafts=true %}
-
-
----
-```
-This file is located at: {{ page.path }}
-```
----
+This book is still under development and represent an ongoing process of refinement. As such, certain information, content, or structure may be subject to updates or revisions. Some details might currently lack full clarity or precision as they are being finalized. Feedback and suggestions are welcome to improve the overall quality and effectiveness of this work.

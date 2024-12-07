@@ -2,8 +2,8 @@
 title: References
 slug: references
 disable_toc: true
-#class: references
-published: false
+class: references
+order: 160
 ---
 
 This is an example chapter for citing references. 

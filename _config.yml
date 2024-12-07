@@ -1,12 +1,12 @@
 # remote_theme: jasongrimes/jekyll-chapterbook
 
 title: R4PhDs
-longtitle: R for non-technical PhD researchers
+longtitle: R for Non-Technical PhD Students
 author: Polla Fattah
 email: polla.fattah@gmail.com
 description: >
   This book aims to provide a comprehensive guide to the research for PhD students that seek to use R for their research.
-  The primary Audience for this book is non-technical researchers to introduce them with statistical analysis and data analysis using R.
+  The primary Audience for this book is non-technical students and researchers to introduce them with statistical analysis and data analysis using R.
   The book is designed to be a practical guide for researchers who are new to R and Programming in general.
 
 
@@ -43,7 +43,7 @@ bookcrumbs:
 # Links shown above the TOC in the sidebar
 # All "url" variables should have a leading slash.
 sidebar_nav_top:
-- label: R for non-technical PhD researchers
+- label: R for Non-Technical PhD Students
   url: /index.html
 
 # Links shown below the TOC in the sidebar

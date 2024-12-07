@@ -6,4 +6,4 @@ layout: post
 published: false
 ---
 
-Initial public release of [jekyll-chapterbook](https://github.com/polla-fattah/R4PhDs).
+Initial public release of [R4PhDs](https://github.com/polla-fattah/R4PhDs).

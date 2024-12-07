@@ -8,7 +8,7 @@ permalink: /
 
 ## **Book Outline:**  
 
-### **Part I: Introduction to R Programming**
+### **Part I: Introduction to R Programming**https://polla.dev/
 
 #### **Chapter 1: Introduction to R and RStudio**  
 - Installing R and RStudio  

@@ -1,4 +1,4 @@
-remote_theme: jasongrimes/jekyll-chapterbook
+# remote_theme: jasongrimes/jekyll-chapterbook
 
 title: R4PhDs
 longtitle: R for non-technical PhD researchers
@@ -23,7 +23,7 @@ baseurl_canonical: https://polla-fattah.github.io/R4PhDs
 # Set copyright: false to disable.
 copyright:
   start_year: 2024
-  url: /book.html
+  url: /copyright.html
 
 # Customize the link favicon in header. Will be {{site.baseurl}}/{{site.favicon_path}}
 favicon_path: assets/gitbook/images/favicon.ico
@@ -62,9 +62,9 @@ bottom_nav:
 - label: Book
   url: /book.html
 - label: GitHub
-  url: https://github.com/jasongrimes/jekyll-chapterbook
-- label: Privacy
-  url: /privacy.html
+  url: https://github.com/polla-fattah/R4PhDs
+- label: Copyright
+  url: /copyright.html
 
 
 # Whether to show chapter headings as a table of contents at the top of each chapter page.
@@ -88,7 +88,7 @@ sidebar_toc:
 # Show a link to edit each page on GitHub
 github_edit:
   enabled: true
-  base_url: https://github.com/jasongrimes/jekyll-chapterbook/edit/master/
+  base_url: https://github.com/polla-fattah/R4PhDs/edit/main/
 
 # Custom CSS
 extra_css:

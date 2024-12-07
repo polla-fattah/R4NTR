@@ -3,7 +3,7 @@ title: Initial release
 author: Jason Grimes
 date: 2023-02-20
 layout: post
-published: false
+published: true
 ---
 
 Initial public release of [R4PhDs](https://github.com/polla-fattah/R4PhDs).

@@ -118,7 +118,3 @@ permalink: /
 - **Appendix B:** Glossary of R Functions and Commands.  
 - **Appendix C:** Recommended R Packages and Libraries.  
 - **Appendix D:** Common Errors in R and How to Fix Them.  
-
----
-
-This structure converts the weekly syllabus into a complete book with a logical flow. Each chapter builds on the previous one and introduces progressively advanced topics while maintaining accessibility for non-technical readers. Let me know if you’d like further refinement!

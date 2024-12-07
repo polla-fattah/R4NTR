@@ -1,6 +1,7 @@
 ---
 title: Table of Contents
 slug: contents
+published: false
 ---
 
 *Also see the [outline](outline) of the entire book as planned, including draft chapters that are not yet completed.*

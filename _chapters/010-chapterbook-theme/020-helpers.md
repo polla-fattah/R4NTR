@@ -2,6 +2,7 @@
 title: Helper includes
 slug: helpers
 abstract: Helper methods, of a sort, using Jekyll includes.
+published: false
 ---
 
 In order for this theme to work natively with GitHub pages,
@@ -45,7 +46,7 @@ See example [Table of Contents](toc.html), rendered with:
 ```
 {% endraw %}
 
-See example [draft outline](outline.html), rendered with:
+See example [Draft Exclaimer](outline.html), rendered with:
 {% raw %}
 ```liquid
 {% include chapterbook-toc.html show_drafts=true %}

@@ -1,7 +1,8 @@
 ---
 slug: book
 title: Demo Book
-abstract: An example book for showcasing the Jekyll Chapterbook theme.
+abstract: An example book for showcasing the R for non-technical PhD researchers.
+published: false
 ---
 
 By Jason Grimes

@@ -2,6 +2,7 @@
 title: Wide tables
 slug: wide-tables
 abstract: Making sure tables look good on mobile.
+published: false
 ---
 
 Tables can be created using normal [GitHub-flavored markdown](https://github.github.com/gfm/#tables-extension-). 

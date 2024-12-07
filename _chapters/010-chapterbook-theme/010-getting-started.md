@@ -2,6 +2,7 @@
 title: Getting started
 slug: getting-started
 abstract: A guide to quickly setting up your site with this theme.
+published: false
 ---
 
 This is an example chapter page.

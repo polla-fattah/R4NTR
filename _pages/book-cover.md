@@ -1,7 +1,13 @@
 ---
-title: Front Cover
+title: Book Covers
 permalink: /book-cover
 layout: page
 ---
 
-[![Book Cover](assets/img/book-cover.png)](/book)
+### Front Cover
+
+[![Book Cover](assets/img/front-cover.png)](/)
+
+### Back Cover
+
+[![Book Cover](assets/img/back-cover.png)](/)

@@ -60,7 +60,7 @@ bottom_nav:
 - label: Home
   url: /index.html
 - label: Book
-  url: /book.html
+  url: /book-cover.html
 - label: GitHub
   url: https://github.com/polla-fattah/R4PhDs
 - label: Copyright
@@ -102,8 +102,6 @@ show_drafts_in_dev: false
 
 
 
-
-
 exclude:
   - _drafts
   - tmp
@@ -116,7 +114,7 @@ regenerate: true
 
 plugins:
 #  - jekyll-feed
-  - jekyll-readme-index
+#  - jekyll-readme-index
 #  - jemoji
 
 collections:

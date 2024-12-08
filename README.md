@@ -1,7 +1,6 @@
 ---
 layout: home
 title: R for non-technical PhD students
-permalink: /
 ---
 
 

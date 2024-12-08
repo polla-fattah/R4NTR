@@ -26,7 +26,7 @@ copyright:
   url: /copyright.html
 
 # Customize the link favicon in header. Will be {{site.baseurl}}/{{site.favicon_path}}
-favicon_path: assets/gitbook/images/favicon.ico
+favicon_path: assets/img/r-letter.svg
 
 #
 # Navigation menus
@@ -112,7 +112,7 @@ destination: ./_site
 incremental: false
 regenerate: true
 
-plugins:
+plugins: [] #remove this [] if you want to use plugins
 #  - jekyll-feed
 #  - jekyll-readme-index
 #  - jemoji

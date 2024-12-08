@@ -4,6 +4,7 @@ slug: references
 disable_toc: true
 class: references
 order: 160
+published: false
 ---
 
 This is an example chapter for citing references. 

@@ -2,6 +2,7 @@
 title: Book Covers
 permalink: /book-cover
 layout: page
+published: false
 ---
 
 ### Front Cover

@@ -59,7 +59,7 @@ sidebar_nav_bottom:
 bottom_nav:
 - label: Home
   url: /index.html
-- label: Book
+- label: Book Cover
   url: /book-cover.html
 - label: GitHub
   url: https://github.com/polla-fattah/R4PhDs

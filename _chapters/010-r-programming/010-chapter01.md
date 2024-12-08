@@ -61,9 +61,15 @@ execute, and debug R code, particularly for researchers and non-technical users.
 RStudio is widely adopted across disciplines because it integrates essential tools for data analysis, visualization, and reporting into a single, cohesive platform.
 From managing datasets to creating publication-ready plots, RStudio streamlines the research workflow and minimizes technical barriers.
 
+{% include figure.html
+    caption="C major chord shape."
+    url="/assets/demo/C-maj.svg"
+    class="row"
+%}
+
 #### **Why Use RStudio?**
 
-RStudio offers significant advantages that make it a preferred choice for researchers:
+RStudio offers significant advantages that make it a preferred choice for researchers: [(Berg, 1997)](references.html#berg-1997)
 
 - **Ease of Use:** Its user-friendly interface simplifies coding and visualization, making R accessible even to beginners.  
 - **Comprehensive Tools:** Combines code editing, execution, visualization, and package management in one environment.  

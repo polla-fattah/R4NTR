@@ -2,6 +2,7 @@
 title: Copyright
 permalink: /copyright
 layout: page
+published: false
 ---
 
 Copyright 2025 Polla Fattah

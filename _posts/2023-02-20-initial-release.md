@@ -6,4 +6,4 @@ layout: post
 published: true
 ---
 
-Initial public release of [R4PhDs](https://github.com/polla-fattah/R4PhDs).
+Initial public release of [R4NTR](https://github.com/polla-fattah/R4NTR).

@@ -1,6 +1,6 @@
 # remote_theme: jasongrimes/jekyll-chapterbook
 
-title: R4PhDs
+title: R4NTR
 longtitle: R for Non-Technical PhD Students
 author: Polla Fattah
 email: polla.fattah@gmail.com
@@ -14,7 +14,7 @@ description: >
 # If baseurl_canonical is set, 
 # a <link rel="canonical"> tag will be added to the head of each page,
 # to disambiguate links for search engines.
-baseurl_canonical: https://polla-fattah.github.io/R4PhDs
+baseurl_canonical: https://polla-fattah.github.io/R4NTR
 
 # A copyright notice will be shown at the bottom of each page,
 # with the current year and the author name.
@@ -62,7 +62,7 @@ bottom_nav:
 - label: Book Cover
   url: /book-cover.html
 - label: GitHub
-  url: https://github.com/polla-fattah/R4PhDs
+  url: https://github.com/polla-fattah/R4NTR
 - label: Copyright
   url: /copyright.html
 
@@ -88,7 +88,7 @@ sidebar_toc:
 # Show a link to edit each page on GitHub
 github_edit:
   enabled: true
-  base_url: https://github.com/polla-fattah/R4PhDs/edit/main/
+  base_url: https://github.com/polla-fattah/R4NTR/edit/main/
 
 # Custom CSS
 extra_css:

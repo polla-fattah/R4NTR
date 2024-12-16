@@ -1,12 +1,12 @@
 ---
-title: R for Non-Technical PhD Students (R4NTR)
+title: R for Non-Technical Researchers (R4NTR)
 permalink: /
 layout: home
 ---
 
 Last updated: {{ "now" | date: "%B %e, %Y" }}
 
-Welcome to R for Non-Technical PhD Students (R4NTR), a comprehensive guide designed to empower researchers with limited technical backgrounds to harness the power of R for data analysis and statistical computing.
+Welcome to R for Non-Technical Researchers (R4NTR), a comprehensive guide designed to empower researchers with limited technical backgrounds to harness the power of R for data analysis and statistical computing.
 
 This book is a living document, continuously updated to ensure that its content stays relevant, accurate, and aligned with the latest advancements in R and its applications. Whether you're new to programming, exploring statistics, or diving into machine learning, this book provides the tools, techniques, and confidence you need to integrate R into your research journey effectively.
 

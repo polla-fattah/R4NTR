@@ -1,6 +1,6 @@
 ---
 layout: home
-title: R for non-technical PhD students
+title: R for non-Technical Researchers
 ---
 
 

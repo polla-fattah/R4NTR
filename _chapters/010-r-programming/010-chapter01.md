@@ -1222,6 +1222,7 @@ When you open a help page in R, it contains several sections:
 
 Understanding these sections will help you quickly find the information you need.
 
+tt
 
 
 #### Example: Using Documentation to Understand `mean()`

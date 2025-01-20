@@ -84,7 +84,7 @@ footer: "R Programming | Chapter 1"
    - Visit [RStudio's website](https://rstudio.com/) and navigate to the download section.
    - Select the free version, **RStudio Desktop - Open Source Edition**.
 
-2. **Install RStudio**:
+2. **Install RStudio**:1
    - Download the appropriate installer for your operating system:
      - **Windows**: Run the `.exe` file and follow the installation prompts.
      - **Mac**: Drag the `.dmg` file into the Applications folder.

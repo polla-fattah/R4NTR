@@ -12,7 +12,7 @@ title: R for non-Technical Researchers
 - Writing and executing R scripts.
 - Overview of R libraries and packages.
 
-### **Chapter 2: Data Structures and Basic Operations in R**
+### **Chapter 2: Data Structures in R**
 
 - Understanding vectors, matrices, lists, and data frames.
 - Indexing, subsetting, and modifying data structures.

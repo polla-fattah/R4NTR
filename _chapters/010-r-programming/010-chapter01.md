@@ -2,6 +2,7 @@
 title: R Programming Language
 slug: chapter01
 order: 030
+published: false
 abstract: >
   The tools we use have a profound and devious influence on our thinking habits, and therefore, on our thinking abilities.
   <br>—Edsger W. Dijkstra

@@ -2384,4 +2384,115 @@ print(agg_multiple)
 3   virginica           6.588         0.6358796
 ```
 
-By presenting progressively complex examples, this section equips readers with a solid foundation for exploring, summarizing, and aggregating data in R.
+
+
+#### Applying Summary Statistics to Multiple Columns
+
+R allows you to compute summary statistics for all numeric columns in a dataset simultaneously using the `summary()` function.
+
+```r
+# Summary statistics for the entire iris dataset
+print("Summary of the iris dataset:")
+summary(iris)
+```
+
+**Output in R Console**:
+
+```bash
+   Sepal.Length    Sepal.Width     Petal.Length    Petal.Width          Species  
+ Min.   :4.300   Min.   :2.000   Min.   :1.000   Min.   :0.100   setosa    :50  
+ 1st Qu.:5.100   1st Qu.:2.800   1st Qu.:1.600   1st Qu.:0.300   versicolor:50  
+ Median :5.800   Median :3.000   Median :4.350   Median :1.300   virginica :50  
+ Mean   :5.843   Mean   :3.057   Mean   :3.758   Mean   :1.199                  
+ 3rd Qu.:6.400   3rd Qu.:3.300   3rd Qu.:5.100   3rd Qu.:1.800                  
+ Max.   :7.900   Max.   :4.400   Max.   :6.900   Max.   :2.500                  
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### Aggregating Data
+
+Aggregation allows you to compute summary statistics for subsets of your data, often grouped by a categorical variable.
+
+An example on Mean Sepal.Length by Species
+
+```r
+# Aggregate Sepal.Length by Species
+agg_data <- aggregate(Sepal.Length ~ Species, data = iris, FUN = mean)
+print("Mean Sepal.Length by Species:")
+print(agg_data)
+```
+
+**Output in R Console**:
+
+```bash
+      Species Sepal.Length
+1      setosa       5.006
+2  versicolor       5.936
+3   virginica       6.588
+```
+
+The `~` symbol in R is used to define a formula, which specifies the relationship between a dependent variable and one or more independent variables. In the context of `aggregate()`, it indicates that the dependent variable (on the left of `~`) should be summarized based on the levels of the independent variable (on the right of `~`).
+
+**Example**:
+
+```r
+# Aggregate Sepal.Length by Species
+agg_data <- aggregate(Sepal.Length ~ Species, data = iris, FUN = mean)
+print("Mean Sepal.Length by Species:")
+print(agg_data)
+```
+
+**Explanation**:
+
+- `Sepal.Length ~ Species`: Summarize `Sepal.Length` grouped by the levels of `Species`.
+- `data = iris`: Specifies the dataset to use.
+- `FUN = mean`: Indicates the function to apply (mean in this case).
+
+**Output in R Console**:
+
+```bash
+      Species Sepal.Length
+1      setosa       5.006
+2  versicolor       5.936
+3   virginica       6.588
+```
+
+To clarify the formula syntax further:
+
+- The left-hand side of `~` (`Sepal.Length`) is the variable to summarize.
+- The right-hand side of `~` (`Species`) is the grouping variable.
+
+You can use multiple functions to summarize the data by extending the formula notation.
+
+```r
+# Aggregate multiple statistics
+agg_multiple <- aggregate(Sepal.Length ~ Species, data = iris, 
+                          FUN = function(x) c(mean = mean(x), sd = sd(x)))
+print("Mean and SD of Sepal.Length by Species:")
+print(agg_multiple)
+```
+
+**Output in R Console**:
+
+```bash
+      Species Sepal.Length.mean Sepal.Length.sd
+1      setosa           5.006         0.3524897
+2  versicolor           5.936         0.5161711
+3   virginica           6.588         0.6358796
+```
+
+This demonstrates how flexible `aggregate()` can be when analyzing data.

@@ -66,7 +66,7 @@ Excel files offer additional functionality, such as multiple sheets, but require
    ```
 
    <!-- expand for excel-->
-
+    <!-- Users on Windows might face issues installing certain packages if Rtools is not installed. Consider mentioning that they may need to download Rtools from https://cran.rstudio.com/bin/windows/Rtools/ if they encounter installation warnings. -->  
 ### Using Built-In Datasets
 
 R includes built-in datasets for practice and exploration. The `iris` dataset, which contains measurements for three species of flowers, is a common example. It can be loaded without importing a file:
@@ -214,7 +214,7 @@ R supports different types of vectors, which determine how the data is interpret
    ```r
    factor_vec <- factor(c("Male", "Female", "Male"))
    ```
-
+    <!-- Consider changing: factor_vec <- factor(c("Male", "Female", "Male")) to factor_vec <- factor(c("Male", "Female")) for a clearer output. The original output ("Male   Female Male Levels: Female Male") might cause confusion. -->
 ### Indexing and Subsetting
 
 R provides powerful tools for accessing and manipulating specific elements of a vector:
@@ -532,7 +532,7 @@ R supports a variety of matrix operations, including addition, subtraction, mult
     mat_diff <- matA - matB
     print(mat_diff)
     ```
-
+    
    **Output in R Console**:
 
     ```bash
@@ -546,7 +546,7 @@ R supports a variety of matrix operations, including addition, subtraction, mult
     [1,]   -4   -4
     [2,]   -4   -4
     ```
-
+    <!-- To simplify, consider using `matrix(1:4, nrow=2)` for both matrices (e.g., matA and matB). This makes the values easier to track. -->
 2. **Matrix Transpose**
     The transpose of a matrix swaps its rows and columns. This is achieved using the `t()` function.
 
@@ -1418,7 +1418,7 @@ print(students_with_emails)
 ```
 
 If the data frames have unequal rows, `merge()` introduces missing values (`NA`) for unmatched rows. You can control whether all rows from one or both data frames are included by using the `all.x` or `all.y` parameters.
-
+<!-- Could explain how the 'by' argument ensures merging based on the common column, returning only matching data, while using 'all.x' or 'all.y' returns all data and missing data will be written as NA. -->
 ```r
 # Create a smaller data frame with partial information
 partial_data <- data.frame(
@@ -2407,7 +2407,7 @@ summary(iris)
  3rd Qu.:6.400   3rd Qu.:3.300   3rd Qu.:5.100   3rd Qu.:1.800                  
  Max.   :7.900   Max.   :4.400   Max.   :6.900   Max.   :2.500                  
 ```
-
+<!-- The two sections about the 'summary()' function are repetitive and could be combined into one (First summary() from line 2235 - 2255) and (Second summary() here). The explanation and example are almost identical, so it's more efficient to present it as a single section to avoid redundancy and confusion. -->
 
 
 
@@ -2496,3 +2496,4 @@ print(agg_multiple)
 ```
 
 This demonstrates how flexible `aggregate()` can be when analyzing data.
+<!-- A Table of Contents could be useful considering all the various topics covered in this chapter or adding a learning outcomes at the beginning or end of the chapter. -->

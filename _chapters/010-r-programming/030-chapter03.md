@@ -413,7 +413,7 @@ Data often comes in formats that aren't ideal for analysis. Sometimes, you need 
 ### Pivoting Data with `pivot_longer()` and `pivot_wider()`
 
 Data can be represented in either "wide" or "long" format. Wide format data has multiple columns representing the same type of measurement taken at different time points or under different conditions. Long format data, on the other hand, has a single column for the measurement and another column indicating the time point or condition.
-
+<!-- Could also mention that wide format is generally more **readable** for humans, while long format is more **convenient** for analysis and visualization. This could help clarify when each format is preferred. -->
 #### `pivot_longer()`
 
 The `pivot_longer()` function is used to convert wide format data to long format. This is often necessary when you have multiple columns representing the same type of measurement, and you want to analyze the data across these different measurements.
@@ -856,3 +856,4 @@ write_csv(wine_data_standardized, "wine_data_cleaned.csv")
 This code provides a comprehensive example of data cleaning and preparation using the `dplyr` and `tidyr` packages. It covers various aspects of data manipulation, including handling missing values, removing duplicates, renaming columns, transforming variables, and exporting the cleaned data.
 
 Remember to adapt and modify this code to fit your specific data and research questions. The key is to understand the data, identify potential issues, and make informed decisions about how to clean and prepare it for analysis.
+<!-- Consider leaving learning outcomes/table of contents at the start or the end of the chapter. -->

@@ -11,6 +11,7 @@ description: >
 
 
 
+
 # If baseurl_canonical is set, 
 # a <link rel="canonical"> tag will be added to the head of each page,
 # to disambiguate links for search engines.
@@ -112,10 +113,12 @@ destination: ./_site
 incremental: false
 regenerate: true
 
-plugins: [] #remove this [] if you want to use plugins
+plugins: 
+  - jekyll-mermaid
 #  - jekyll-feed
 #  - jekyll-readme-index
 #  - jemoji
+
 
 collections:
   chapters:
@@ -135,7 +138,7 @@ defaults:
       permalink: /:slug:output_ext
 
 # Markdown render engine.
-markdown:         kramdown
+markdown: kramdown
 kramdown:
   auto_ids:               true
   input:                  GFM
@@ -145,5 +148,13 @@ kramdown:
   syntax_highlighter:     rouge
   syntax_highlighter_opts:
     guess_lang:           true
+    
 syntax_highlighter_style: colorful
 markdown_ext:     markdown,mkdown,mkdn,mkd,md
+highlighter: rouge
+
+
+mermaid:
+  src: https://cdnjs.cloudflare.com/ajax/libs/mermaid/11.0.0/mermaid.min.js
+
+

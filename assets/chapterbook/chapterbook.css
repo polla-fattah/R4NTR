@@ -551,6 +551,7 @@ figure.row.of-4 {
 .hanging-indent p {
     padding-left: 30px ;
     text-indent: -30px ;
+    text-align: justify;
 }
 table.inspect-chapter-iterate-vars {
     display: flex;
